@@ -13,3 +13,6 @@ export const ReqLogin = (user) => ajax(`${baseUrl}/login`, user, 'POST')
 
 // 更新用户
 export const ReqUpdate = (user) => ajax(`${baseUrl}/update`, user, 'POST')
+
+// 获取用户信息
+export const ReqUser = () => ajax(`${baseUrl}/user`)
