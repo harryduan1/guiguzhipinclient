@@ -2,29 +2,29 @@ import React,{Component} from 'react'
 import {List, Grid} from 'antd-mobile'
 import PropTypes from 'prop-types'
 
-import icon1 from './images/头像1.png'
-import icon2 from './images/头像2.png'
-import icon3 from './images/头像3.png'
-import icon4 from './images/头像4.png'
-import icon5 from './images/头像5.png'
-import icon6 from './images/头像6.png'
-import icon7 from './images/头像7.png'
-import icon8 from './images/头像8.png'
-import icon9 from './images/头像9.png'
-import icon10 from './images/头像10.png'
-import icon11 from './images/头像11.png'
-import icon12 from './images/头像12.png'
-import icon13 from './images/头像13.png'
-import icon14 from './images/头像14.png'
-import icon15 from './images/头像15.png'
-import icon16 from './images/头像16.png'
-import icon17 from './images/头像17.png'
-import icon18 from './images/头像18.png'
-import icon19 from './images/头像19.png'
-import icon20 from './images/头像20.png'
+import icon1 from '../../assets/images/头像1.png'
+import icon2 from '../../assets/images/头像2.png'
+import icon3 from '../../assets/images/头像3.png'
+import icon4 from '../../assets/images/头像4.png'
+import icon5 from '../../assets/images/头像5.png'
+import icon6 from '../../assets/images/头像6.png'
+import icon7 from '../../assets/images/头像7.png'
+import icon8 from '../../assets/images/头像8.png'
+import icon9 from '../../assets/images/头像9.png'
+import icon10 from '../../assets/images/头像10.png'
+import icon11 from '../../assets/images/头像11.png'
+import icon12 from '../../assets/images/头像12.png'
+import icon13 from '../../assets/images/头像13.png'
+import icon14 from '../../assets/images/头像14.png'
+import icon15 from '../../assets/images/头像15.png'
+import icon16 from '../../assets/images/头像16.png'
+import icon17 from '../../assets/images/头像17.png'
+import icon18 from '../../assets/images/头像18.png'
+import icon19 from '../../assets/images/头像19.png'
+import icon20 from '../../assets/images/头像20.png'
 
 // for(let i = 1; i <= 20; i++) {
-//     import `icon${i}` from `./images/头像1.png`
+//     import `icon${i}` from '../../assets/images/头像1.png`
 // }
 
 const headerList = [
@@ -112,7 +112,7 @@ const headerList = [
 
 Array.from(new Array(20)).map((_val, i) => ({
     // icon: 'https://gw.alipayobjects.com/zos/rmsportal/nywPmnTAvTmLusPxHPSu.png',
-    // icon: require(`./images/头像${i + 1}.png`),
+    // icon: require('../../assets/images/头像${i + 1}.png`),
     icon: icon1,
     text: `头像${i + 1}`,
   }));
@@ -133,7 +133,7 @@ export default class HeaderSelect extends Component {
     //     for(let i = 1; i <= 20; i++) {
     //         this.headerList.push({
     //             text: `头像${i}`,
-    //             icon: require(`./images/头像${i}.png`)
+    //             icon: require('../../assets/images/头像${i}.png`)
     //         })
     //     }
     // }
